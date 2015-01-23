@@ -36,8 +36,10 @@ title: Decoder for J
 </div>
 
 <script>
+
 var input = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Z", "X", "C", "V", "B", "N", "M"];
 var output = ["p", "q", "w", "e", "r", "t", "y", "u", "i", "o", "l", "a", "s", "d", "f", "g", "h", "j", "k", "m", "z", "x", "c", "v", "b", "n", "P", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "L", "A", "S", "D", "F", "G", "H", "J", "K", "M", "Z", "X", "C", "V", "B", "N"];
+
 function decode() {
 	var text_output = "";
 	var text_input = document.getElementById('text_input').value;
@@ -52,7 +54,9 @@ function decode() {
 	}
 	document.getElementById('text_output').innerHTML = text_output;
 }
+
 $('#submit').click(function(){decode()});
+
 </script>
 
     </body>
